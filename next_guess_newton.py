@@ -1,0 +1,5 @@
+x = int(input("what x to find the cube root of:"))
+g = int(input("what guess to start with:"))
+print(g**3)
+nextguess = (g-(g**3-x)/(3*g**2))
+print(f"next guess is: {nextguess}")
